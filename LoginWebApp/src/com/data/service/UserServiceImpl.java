@@ -4,7 +4,7 @@ public class UserServiceImpl implements UserService {
 
 	@Override
 	public boolean validateUser(String userName, String userPass) {
-		if(userName.equals("baba") && userPass.equals("SeKret100"))
+		if(userName.equals("baba") && userPass.equals("twasD"))
 		  return true;
 		else
 			 return false;
