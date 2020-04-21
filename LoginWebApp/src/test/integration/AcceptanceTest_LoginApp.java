@@ -174,11 +174,11 @@ public class AcceptanceTest_LoginApp {
 	HtmlForm form = page.getFormByName("loginForm");
 	List elements = form.getElementsByTagName("input") ;		 
 	HtmlElement uname = (HtmlElement) elements.get(0);
-	uname.setAttribute("value", "ashok");
+	uname.setAttribute("value", "baba");
 	//uname.setTextContent("ashok");
 	HtmlElement upass = (HtmlElement) elements.get(1);
 	//upass.setTextContent("morYa");
-	upass.setAttribute("value", "morYa");
+	upass.setAttribute("value", "twasD");
 	HtmlElement submitBtn = (HtmlElement) elements.get(2);
 	try {
 		nextPage  = submitBtn.click();
