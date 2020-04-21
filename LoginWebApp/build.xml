@@ -52,7 +52,7 @@
 	 
 
 	<target name="All-Unit-Test" depends="compile">
-		<echo message="Running the All Unit Test with Junit.."/>
+		<echo message="Running the All The Unit Test with Junit.."/>
 		 <junit printsummary="yes" fork="yes" haltonfailure="yes" showoutput="yes">
 
 			<classpath>				 			 
